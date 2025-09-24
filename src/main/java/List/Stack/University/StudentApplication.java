@@ -99,9 +99,5 @@ public class StudentApplication {
                 .filter(s -> s.getGpa() > 3.0)
                 .forEach(s -> System.out.println(s.getName() + ": " + s.getGpa()));
 
-
-
-
-
     }
 }
