@@ -87,7 +87,7 @@ public class StudentApplication {
         System.out.println("\nContains Vikas? " + sortedList.contains(new Student("Vikas", 2.2)));
 
         // get(int index): Get top-ranked student
-        System.out.println("Top-ranked student: " + sortedList.get(0));
+        System.out.println("Top-ranked student: " + sortedList.getFirst());
 
         // toArray(): Export for reporting
         Student[] reportArray = sortedList.toArray(new Student[0]);
