@@ -33,11 +33,11 @@ public class HospitalSystem {
 
         // Billing thread removes a patient
         new Thread(() -> {
-            admittedPatients.remove(1); // remove Bob
+            admittedPatients.remove(1);
             System.out.println("Billing removed patient at index 1");
         }).start();
 
-        // Admin thread reads the list
+
         new Thread(() -> {
             System.out.println("Admin reading patients:");
             admittedPatients.forEach(System.out::println);
