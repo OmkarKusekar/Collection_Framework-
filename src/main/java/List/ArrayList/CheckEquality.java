@@ -18,7 +18,11 @@ public class CheckEquality {
 
         // Check equality before modification
 
+
         System.out.println("Lists equal before modification ? " + list1.equals(list2));
+
+        System.out.println("Lists equal before modefication ? " + list1.equals(list2));
+
 
         list1.add("Apple");
 

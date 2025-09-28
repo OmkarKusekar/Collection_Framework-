@@ -1,5 +1,5 @@
-package main.java.List.Vector.University;
 
+package main.java.List.Vector.University;
 public class Student {
     String name;
     double gpa;

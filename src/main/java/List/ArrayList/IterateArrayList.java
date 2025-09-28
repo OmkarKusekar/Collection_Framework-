@@ -1,5 +1,6 @@
 package main.java.List.ArrayList;
 
+
 import java.util.*;
 
 public class IterateArrayList {
@@ -13,7 +14,7 @@ public class IterateArrayList {
         animals.add("Goat");
 
         String[] AnimalsArray = animals.toArray(new String[0]);
-        for(String Animal : AnimalsArray){
+        for (String Animal : AnimalsArray) {
             System.out.println(Animal);
         }
 
@@ -23,28 +24,27 @@ public class IterateArrayList {
         System.out.println("Reversed List " + animals);
 
         System.out.println(" Using loop : ");
-        for (int i = 0; i < animals.size(); i++) {
-            System.out.println(animals.get(i));
+        for (String s : animals) {
+            System.out.println(s);
         }
 
 
         System.out.println("\nUsing for each loop : ");
-        for(String Animals : animals){
+        for (String Animals : animals) {
             System.out.println(Animals);
         }
 
         System.out.println("\nUsing Iterator");
-        Iterator<String> iterator = animals.iterator();
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
+        for (String s : animals) {
+            System.out.println(s);
         }
 
         System.out.println("\nUsing ListIterator");
-        ListIterator<String> listIterator = animals.listIterator();
-        while(listIterator.hasNext()){
-            System.out.println(listIterator.next());
+        for (String animal : animals) {
+            System.out.println(animal);
         }
 
     }
-
 }
+
+

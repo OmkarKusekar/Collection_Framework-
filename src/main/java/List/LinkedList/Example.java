@@ -1,5 +1,6 @@
 package main.java.List.LinkedList;
 
+
 import java.util.LinkedList;
 
 public class Example {
@@ -21,7 +22,5 @@ public class Example {
             System.out.println(Task);
         }
     }
-
-
 
 }

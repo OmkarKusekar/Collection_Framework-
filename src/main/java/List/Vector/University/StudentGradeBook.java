@@ -1,5 +1,7 @@
 package main.java.List.Vector.University;
 
+import main.java.List.Vector.University.Student;
+
 import java.util.Comparator;
 import java.util.Enumeration;
 import java.util.Vector;
