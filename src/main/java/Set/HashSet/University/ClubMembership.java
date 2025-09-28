@@ -12,7 +12,7 @@ public class ClubMembership {
         boolean running = true;
 
         while (running){
-            System.out.println("\n=== Club Membership Menu ===");
+            System.out.println("\n==== Club Membership Menu ====");
             System.out.println("1 Add Member");
             System.out.println("2 Remove Member");
             System.out.println("3 Check Membership");
@@ -38,7 +38,6 @@ public class ClubMembership {
                 case 8 -> undoLastAction();
                 case 9 -> running = false;
                 default -> System.out.println("Invalid choice ");
-
             }
         }
         scanner.close();
